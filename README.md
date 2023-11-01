@@ -70,17 +70,17 @@ curl -X DELETE http://localhost:3000/api/products/1
 
 ### Crear un nuevo carrito
 ```bash
-curl -X POST http://localhost:3000/api/carts
+curl -X POST http://localhost:3000/api/cart
 ```
 
 ### Obtener un carrito por su ID (reemplaza :cid con el ID del carrito)
 ```bash
-curl -X GET http://localhost:3000/api/carts/1
+curl -X GET http://localhost:3000/api/cart/1
 ```
 
 ### Agregar un producto a un carrito (reemplaza :cid y :pid con los IDs deseados)
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{
   "quantity": 2
-}' http://localhost:3000/api/carts/1/product/1
+}' http://localhost:3000/api/cart/1/product/1
 ```
