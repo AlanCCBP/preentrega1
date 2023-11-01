@@ -1,0 +1,36 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de registro y errores
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración
+.env
+
+# Directorio de construcción (por ejemplo, si utilizas `babel` para transpilar el código)
+dist/
+
+# Caché de npm
+.npm
+
+# Archivos temporales y generados
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Dependiendo de tu editor de código, puedes agregar sus archivos y carpetas de configuración aquí, por ejemplo, para Visual Studio Code
+.vscode/
+
+# Si usas TypeScript, puedes querer excluir los archivos de compilación
+*.tsbuildinfo
+
+# Si utilizas ESLint, puedes querer excluir los archivos generados por ESLint
+.eslintcache
+
+# Dependiendo de tu sistema de pruebas, puedes querer excluir los archivos generados por tus pruebas
+coverage/
